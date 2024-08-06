@@ -1,0 +1,26 @@
+# Compile of AAC2M4H1.v failed with 2 errors.
+# Compile of AAC2M4H1_tb.vp was successful.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of AAC2M4H1.v failed with 2 errors.
+# Compile of AAC2M4H1_tb.vp was successful.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of AAC2M4H1.v failed with 2 errors.
+# Compile of AAC2M4H1_tb.vp was successful.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of AAC2M4H1.v was successful.
+# Compile of AAC2M4H1.v was successful.
+# Compile of AAC2M4H1_tb.vp was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.AAC2M4H1_tb
+# vsim -gui work.AAC2M4H1_tb 
+# Start time: 11:47:53 on Dec 02,2023
+# Loading work.AAC2M4H1_tb
+# Loading work.ALU
+run -all
+# This simulation is complete
+# ** Note: $stop    : D:/Verilog/ALU/AAC2M4H1_tb.vp(118)
+#    Time: 1291 ns  Iteration: 0  Instance: /AAC2M4H1_tb
+# Break in Module AAC2M4H1_tb in file D:/Verilog/ALU/AAC2M4H1_tb.vp
+quit -sim
+# End time: 11:49:54 on Dec 02,2023, Elapsed time: 0:02:01
+# Errors: 0, Warnings: 9

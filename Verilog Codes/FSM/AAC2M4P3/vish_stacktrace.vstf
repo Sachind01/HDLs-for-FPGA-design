@@ -1,0 +1,19 @@
+# Current time Sat Dec 02 11:25:33 2023
+# ModelSim - Intel FPGA Edition Stack Trace
+# Program = vish
+# Id = "2020.1"
+# Version = "2020.02"
+# Date = "Feb 28 2020"
+# Platform = win32pe
+
+Exception c0000005 has occurred at address 00889f23. Traceback:
+# 0    0x00889f23: 'win_tb_CoreExceptionFilter + 0x11c903'
+# 1    0x00887d86: 'win_tb_CoreExceptionFilter + 0x11a766'
+# 2    0x0059436b: 'WinMain + 0x3afdb'
+# 3    0x007116f7: 'WlfContextItem::`vector deleting destructor' + 0x16457'
+# 4    0x00593b79: 'WinMain + 0x3a7e9'
+# 5    0x004f7329: 'EnumDispProc + 0x17a9'
+# 6    0x742039f1: 'TclNREvalObjv + 0x3e1'
+StackWalk failed 299
+# End of Stack Trace
+

@@ -1,0 +1,37 @@
+# Compile of AAC2M4P1.v was successful.
+# Compile of AAC2M4P1_tb.vp was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.AAC2M4P1_tb
+# vsim -gui work.AAC2M4P1_tb 
+# Start time: 14:07:49 on Nov 30,2023
+# Loading work.AAC2M4P1_tb
+# Loading work.LS161a
+# WARNING: No extended dataflow license exists
+add wave -position end  sim:/AAC2M4P1_tb/vector
+run -all
+# Score =          10
+# Error Count =           0
+# This simulation is complete
+# ** Note: $stop    : D:/Verilog/74LS161/AAC2M4P1/AAC2M4P1_tb.vp(125)
+#    Time: 681 ns  Iteration: 0  Instance: /AAC2M4P1_tb
+# Break in Module AAC2M4P1_tb in file D:/Verilog/74LS161/AAC2M4P1/AAC2M4P1_tb.vp
+vsim -gui work.AAC2M4P1_tb
+# End time: 14:08:41 on Nov 30,2023, Elapsed time: 0:00:52
+# Errors: 0, Warnings: 6
+# vsim -gui work.AAC2M4P1_tb 
+# Start time: 14:08:41 on Nov 30,2023
+# Loading work.AAC2M4P1_tb
+# Loading work.LS161a
+# WARNING: No extended dataflow license exists
+run -all
+# Score =          10
+# Error Count =           0
+# This simulation is complete
+# ** Note: $stop    : D:/Verilog/74LS161/AAC2M4P1/AAC2M4P1_tb.vp(125)
+#    Time: 681 ns  Iteration: 0  Instance: /AAC2M4P1_tb
+# Break in Module AAC2M4P1_tb in file D:/Verilog/74LS161/AAC2M4P1/AAC2M4P1_tb.vp
+run -all
+# Break key hit
+# Break in Module AAC2M4P1_tb in file D:/Verilog/74LS161/AAC2M4P1/AAC2M4P1_tb.vp
+# End time: 14:13:42 on Nov 30,2023, Elapsed time: 0:05:01
+# Errors: 0, Warnings: 2

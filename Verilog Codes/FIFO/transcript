@@ -1,0 +1,29 @@
+# Compile of AAC2M4H2.v failed with 1 errors.
+# Compile of AAC2M4H2_tb.vp was successful.
+# 2 compiles, 1 failed with 1 error.
+# Compile of AAC2M4H2.v failed with 1 errors.
+# Compile of AAC2M4H2_tb.vp was successful.
+# 2 compiles, 1 failed with 1 error.
+# Compile of AAC2M4H2.v failed with 6 errors.
+# Compile of AAC2M4H2_tb.vp was successful.
+# 2 compiles, 1 failed with 6 errors.
+# Compile of AAC2M4H2.v failed with 1 errors.
+# Compile of AAC2M4H2_tb.vp was successful.
+# 2 compiles, 1 failed with 1 error.
+# Compile of AAC2M4H2.v was successful.
+# Compile of AAC2M4H2_tb.vp was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.AAC2M4H2_tb
+# vsim -gui work.AAC2M4H2_tb 
+# Start time: 12:22:32 on Dec 02,2023
+# Loading work.AAC2M4H2_tb
+# Loading work.FIFO8x9
+# WARNING: No extended dataflow license exists
+run -all
+# This simulation is complete
+# ** Note: $stop    : D:/Verilog/FIFO/AAC2M4H2_tb.vp(129)
+#    Time: 20572 ns  Iteration: 0  Instance: /AAC2M4H2_tb
+# Break in Module AAC2M4H2_tb in file D:/Verilog/FIFO/AAC2M4H2_tb.vp
+quit -sim
+# End time: 12:28:48 on Dec 02,2023, Elapsed time: 0:06:16
+# Errors: 0, Warnings: 10

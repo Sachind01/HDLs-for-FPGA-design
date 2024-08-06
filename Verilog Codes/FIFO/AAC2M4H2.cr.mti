@@ -1,0 +1,15 @@
+D:/Verilog/FIFO/AAC2M4H2.v {1 {vlog -work work -stats=none D:/Verilog/FIFO/AAC2M4H2.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module FIFO8x9
+
+Top level modules:
+	FIFO8x9
+
+} {} {}} D:/Verilog/FIFO/AAC2M4H2_tb.vp {1 {vlog -work work -stats=none D:/Verilog/FIFO/AAC2M4H2_tb.vp
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module AAC2M4H2_tb
+
+Top level modules:
+	AAC2M4H2_tb
+
+} {} {}}

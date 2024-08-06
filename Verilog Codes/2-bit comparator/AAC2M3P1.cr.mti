@@ -1,0 +1,15 @@
+D:/Verilog/AAC2M3P1.v {1 {vlog -work work -stats=none {D:\Verilog\AAC2M3P1.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Comparator2
+
+Top level modules:
+	Comparator2
+
+} {} {}} D:/Verilog/AAC2M3P1_tb.vp {1 {vlog -work work -stats=none D:/Verilog/AAC2M3P1_tb.vp
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module AAC2M3P1_tb
+
+Top level modules:
+	AAC2M3P1_tb
+
+} {} {}}
