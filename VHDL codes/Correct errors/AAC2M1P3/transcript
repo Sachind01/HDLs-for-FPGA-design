@@ -1,0 +1,31 @@
+# Compile of AAC2M1P3.vhd failed with 1 errors.
+# Compile of AAC2M1P3_tb.vhdp was successful.
+# 2 compiles, 1 failed with 1 error.
+# Compile of AAC2M1P3.vhd failed with 1 errors.
+# Compile of AAC2M1P3.vhd failed with 1 errors.
+# Compile of AAC2M1P3.vhd was successful.
+# Compile of AAC2M1P3.vhd failed with 1 errors.
+# Compile of AAC2M1P3.vhd was successful.
+vsim -gui work.aac2m1p3_tb
+# vsim -gui work.aac2m1p3_tb 
+# Start time: 22:05:40 on Nov 02,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.numeric_bit(body)
+# Loading ieee.numeric_bit_unsigned(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.aac2m1p3_tb(behavioral)
+# Loading work.find_errors(not_good)
+run
+run -all
+# ** Note: This simulation is complete
+#    Time: 10260 ns  Iteration: 0  Instance: /aac2m1p3_tb
+run -all
+run
+run -all
+# Break key hit
+quit -sim
+# End time: 22:07:00 on Nov 02,2023, Elapsed time: 0:01:20
+# Errors: 0, Warnings: 12

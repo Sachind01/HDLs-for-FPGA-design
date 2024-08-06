@@ -1,0 +1,27 @@
+couldn't open "transcript": permission denied
+# Reading pref.tcl
+# Loading project AAC2M1P3
+# Compile of AAC2M1P3.vhd was successful.
+# Compile of AAC2M1P3_tb.vhdp was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.aac2m1p3_tb
+# vsim -gui work.aac2m1p3_tb 
+# Start time: 15:12:23 on Nov 02,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.numeric_bit(body)
+# Loading ieee.numeric_bit_unsigned(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.aac2m1p3_tb(behavioral)
+# Loading work.find_errors(not_good)
+run
+RUN
+# invalid command name "RUN"
+run
+run
+run
+# ** Error: Error
+#    Time: 160 ns  Iteration: 0  Instance: /aac2m1p3_tb
+run

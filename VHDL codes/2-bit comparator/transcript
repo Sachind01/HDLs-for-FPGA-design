@@ -1,0 +1,73 @@
+# Compile of AAC2M1P1.vhd was successful.
+# Compile of AAC2M1P1.vhd was successful.
+# Compile of AAC2M1P1.vhd was successful.
+# Compile of AAC2M1P1_tb.vhdp was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.aac2m1p1_tb
+# vsim -gui work.aac2m1p1_tb 
+# Start time: 14:15:56 on Nov 02,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.aac2m1p1_tb(behavioral)
+# ** Error: (vsim-3173) Entity 'D:/VHDL/2-bit comparator/work.comparator2' has no architecture.
+# Load interrupted
+# Error loading design
+# End time: 14:15:57 on Nov 02,2023, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 8
+vsim -gui work.aac2m1p1_tb
+# vsim -gui work.aac2m1p1_tb 
+# Start time: 14:16:24 on Nov 02,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.aac2m1p1_tb(behavioral)
+# ** Error: (vsim-3173) Entity 'D:/VHDL/2-bit comparator/work.comparator2' has no architecture.
+# Load interrupted
+# Error loading design
+# End time: 14:16:25 on Nov 02,2023, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 1
+# Compile of AAC2M1P1.vhd was successful.
+# Compile of AAC2M1P1_tb.vhdp was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.aac2m1p1_tb
+# vsim -gui work.aac2m1p1_tb 
+# Start time: 14:17:20 on Nov 02,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.aac2m1p1_tb(behavioral)
+# ** Error: (vsim-3173) Entity 'D:/VHDL/2-bit comparator/work.comparator2' has no architecture.
+# Load interrupted
+# Error loading design
+# End time: 14:17:21 on Nov 02,2023, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 2
+# Compile of AAC2M1P1.vhd failed with 4 errors.
+# Compile of AAC2M1P1.vhd failed with 4 errors.
+# Compile of AAC2M1P1.vhd was successful.
+vsim -gui work.aac2m1p1_tb
+# vsim -gui work.aac2m1p1_tb 
+# Start time: 14:29:10 on Nov 02,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.aac2m1p1_tb(behavioral)
+# Loading work.comparator2(comparator2_arch)
+run
+run
+run
+# ** Note: This simulation is complete
+#    Time: 180 ns  Iteration: 0  Instance: /aac2m1p1_tb
+Score
+# invalid command name "Score"
+run
+# End time: 14:38:14 on Nov 02,2023, Elapsed time: 0:09:04
+# Errors: 0, Warnings: 5

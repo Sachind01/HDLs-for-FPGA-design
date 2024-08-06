@@ -1,0 +1,50 @@
+# Compile of AAC2M2P1.vhd failed with 2 errors.
+# Compile of AAC2M2P1.vhd failed with 2 errors.
+# Compile of AAC2M2P1.vhd failed with 2 errors.
+# Compile of AAC2M2P1.vhd failed with 7 errors.
+# Compile of AAC2M2P1.vhd failed with 7 errors.
+# Compile of AAC2M2P1.vhd failed with 2 errors.
+# Compile of AAC2M2P1.vhd failed with 2 errors.
+# Compile of AAC2M2P1.vhd was successful.
+# Compile of AAC2M2P1.vhd was successful.
+# Compile of AAC2M2P1.vhd failed with 2 errors.
+# Compile of AAC2M2P1.vhd failed with 2 errors.
+# Compile of AAC2M2P1.vhd was successful.
+# Compile of AAC2M2P1.vhd was successful.
+# Compile of AAC2M2P1.vhd was successful.
+# Compile of AAC2M2P1_tb.vhdp was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.aac2m2p1
+# vsim -gui work.aac2m2p1 
+# Start time: 22:01:57 on Nov 06,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.aac2m2p1(arch_aac2m2p1)
+run -all
+run
+run -all
+# WARNING: No extended dataflow license exists
+run -all
+quit -sim
+# End time: 22:02:49 on Nov 06,2023, Elapsed time: 0:00:52
+# Errors: 0, Warnings: 19
+vsim -gui work.aac2m2p1_tb
+# vsim -gui work.aac2m2p1_tb 
+# Start time: 22:03:04 on Nov 06,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.numeric_bit(body)
+# Loading ieee.numeric_bit_unsigned(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.aac2m2p1_tb(behavioral)
+# Loading work.aac2m2p1(arch_aac2m2p1)
+run
+run -all
+# ** Note: This simulation is complete
+#    Time: 525 ns  Iteration: 0  Instance: /aac2m2p1_tb
+# End time: 22:08:04 on Nov 06,2023, Elapsed time: 0:05:00
+# Errors: 0, Warnings: 1

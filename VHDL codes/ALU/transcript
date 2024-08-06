@@ -1,0 +1,71 @@
+# Compile of AAC2M2H2.vhd failed with 3 errors.
+# Compile of AAC2M2H2_tb.vhdp was successful.
+# 2 compiles, 1 failed with 3 errors.
+# Compile of AAC2M2H2.vhd failed with 4 errors.
+# Compile of AAC2M2H2.vhd was successful.
+# Compile of AAC2M2H2.vhd failed with 3 errors.
+# Compile of AAC2M2H2.vhd failed with 2 errors.
+# Compile of AAC2M2H2.vhd failed with 2 errors.
+# Compile of AAC2M2H2_tb.vhdp was successful.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of AAC2M2H2.vhd was successful.
+# Compile of AAC2M2H2.vhd failed with 1 errors.
+# Compile of AAC2M2H2.vhd failed with 1 errors.
+# Compile of AAC2M2H2.vhd failed with 1 errors.
+# Compile of AAC2M2H2.vhd was successful.
+# Compile of AAC2M2H2.vhd was successful.
+# Compile of AAC2M2H2_tb.vhdp was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.aac2m2h2_tb
+# vsim -gui work.aac2m2h2_tb 
+# Start time: 14:07:55 on Nov 26,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.numeric_bit(body)
+# Loading ieee.numeric_bit_unsigned(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.aac2m2h2_tb(behavioral)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.fifo8x9(arch_fifo8x9)
+add wave -position end  sim:/aac2m2h2_tb/WrPtrClr_tb
+add wave -position end  sim:/aac2m2h2_tb/wrinc_tb
+add wave -position end  sim:/aac2m2h2_tb/wren_tb
+add wave -position end  sim:/aac2m2h2_tb/ValidCheck
+add wave -position end  sim:/aac2m2h2_tb/simend
+add wave -position end  sim:/aac2m2h2_tb/rst_tb
+add wave -position end  sim:/aac2m2h2_tb/ROM
+add wave -position end  sim:/aac2m2h2_tb/RdPtrClr_tb
+add wave -position end  sim:/aac2m2h2_tb/rdinc_tb
+add wave -position end  sim:/aac2m2h2_tb/rden_tb
+add wave -position end  sim:/aac2m2h2_tb/Points
+add wave -position end  sim:/aac2m2h2_tb/delay
+add wave -position end  sim:/aac2m2h2_tb/DataOut_tb
+add wave -position end  sim:/aac2m2h2_tb/DataIn_tb
+add wave -position end  sim:/aac2m2h2_tb/clk_tb
+run -all
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /aac2m2h2_tb/FIFO_test
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /aac2m2h2_tb/FIFO_test
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /aac2m2h2_tb/FIFO_test
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 20 ns  Iteration: 0  Instance: /aac2m2h2_tb/FIFO_test
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 20 ns  Iteration: 0  Instance: /aac2m2h2_tb/FIFO_test
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 30 ns  Iteration: 0  Instance: /aac2m2h2_tb/FIFO_test
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 30 ns  Iteration: 0  Instance: /aac2m2h2_tb/FIFO_test
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 40 ns  Iteration: 0  Instance: /aac2m2h2_tb/FIFO_test
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 40 ns  Iteration: 0  Instance: /aac2m2h2_tb/FIFO_test
+# ** Note: This simulation is complete
+#    Time: 335 ns  Iteration: 0  Instance: /aac2m2h2_tb
+run -all
+# End time: 14:27:33 on Nov 26,2023, Elapsed time: 0:19:38
+# Errors: 0, Warnings: 27
